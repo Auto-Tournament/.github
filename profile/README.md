@@ -14,7 +14,7 @@ as modules.
 | Repository | What it is |
 |---|---|
 | [auto-tournament](https://github.com/Auto-Tournament/auto-tournament) | The platform: web app, API and database, shipped as one Docker image. Formerly MatchZy Auto Tournament. |
-| [auto-tournament-cs2](https://github.com/Auto-Tournament/auto-tournament-cs2) | Auto Tournament CS2 (formerly MatchZy Enhanced): the CS2 server plugin that runs matches and reports every event to Auto Tournament. |
+| [cs2-plugin](https://github.com/Auto-Tournament/cs2-plugin) | Auto Tournament CS2 (formerly MatchZy Enhanced): the CS2 server plugin that runs matches and reports every event to Auto Tournament. |
 | [cs2-server-manager](https://github.com/Auto-Tournament/cs2-server-manager) | CLI that installs and runs several CS2 servers on one Linux machine. |
 | [docs](https://github.com/Auto-Tournament/docs) | Source for [docs.autotournament.gg](https://docs.autotournament.gg). |
 
