@@ -13,7 +13,7 @@ as modules.
 
 | Repository | What it is |
 |---|---|
-| [matchzy-auto-tournament](https://github.com/Auto-Tournament/matchzy-auto-tournament) | The platform: web app, API and database, shipped as one Docker image. Being renamed to Auto Tournament. |
+| [auto-tournament](https://github.com/Auto-Tournament/auto-tournament) | The platform: web app, API and database, shipped as one Docker image. Formerly MatchZy Auto Tournament. |
 | [MatchZy-Enhanced](https://github.com/Auto-Tournament/MatchZy-Enhanced) | CS2 server plugin that reports match events to Auto Tournament. |
 | [cs2-server-manager](https://github.com/Auto-Tournament/cs2-server-manager) | CLI that installs and runs several CS2 servers on one Linux machine. |
 | [docs](https://github.com/Auto-Tournament/docs) | Source for [docs.autotournament.gg](https://docs.autotournament.gg). |
