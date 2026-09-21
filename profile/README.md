@@ -19,3 +19,5 @@ as modules.
 | [docs](https://github.com/Auto-Tournament/docs) | Source for [docs.autotournament.gg](https://docs.autotournament.gg). |
 
 [Documentation](https://docs.autotournament.gg) · [Discord](https://discord.gg/n7gHYau7aW)
+
+<sub>The Auto Tournament, MatchZy Enhanced and CS2 Server Manager logos were generated with an AI image model (ChatGPT) and then cleaned up and recoloured by hand.</sub>
