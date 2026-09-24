@@ -1,5 +1,4 @@
-# Org-wide default. Repos with their own .github/FUNDING.yml override this.
-# Add Auto-Tournament to the github list below once the org has a Sponsors profile.
+# Org-wide default for every Auto-Tournament repository without its own .github/FUNDING.yml.
 
-github: [sivert-io]
+github: [Auto-Tournament, sivert-io]
 ko_fi: sivert
