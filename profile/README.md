@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/at-wordmark-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/at-wordmark-light.svg">
-  <img src="assets/at-wordmark-light.svg" alt="Auto Tournament" height="56">
-</picture>
+<img src="assets/at-banner.png" alt="Auto Tournament" width="100%">
 
 Self-hosted tournament platform. You create the tournament; Auto Tournament
 loads each match onto your game servers, tracks the score and moves the
