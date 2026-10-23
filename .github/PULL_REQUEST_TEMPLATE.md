@@ -1,30 +1,20 @@
-## What does this change?
+## What and why
 
-<!-- A short description of the change and why it's needed. -->
+<!-- What does this change, and why? -->
 
-## AI disclosure
+Fixes #
 
-AI assistance is allowed anywhere in Auto Tournament, as long as it's disclosed. Some areas are
-read line by line before anything merges:
+## How you tested it
 
-- Sign-in and identity: `api/src/routes/auth.ts`, `api/src/middleware/auth.ts`,
-  `api/src/middleware/serverAuth.ts`, `api/src/services/authIdentityService.ts`,
-  `api/src/config/authProviders.ts`
-- Module signing and installation: `api/src/modules/` (signature, trustedKeys, archive,
-  catalogService)
-- Game-server control: `api/src/integrations/cs2/routes/rcon.ts`,
-  `api/src/integrations/cs2/services/rconService.ts`, `api/src/integrations/cs2/matchConfig.ts`
+<!-- Required. What did you run, and what did you see? "Tests pass" is not enough. -->
 
-Full details: https://docs.autotournament.gg/developer/contributing
+## AI
 
-- [ ] This PR contains AI-assisted code
-- [ ] This PR touches a review-required path (expect a slower, closer review)
+<!-- Did an AI tool write any of this? Say which one, or "none". -->
 
-## Checklist
+- [ ] I have read and understand every line of this PR.
 
-- [ ] `yarn lint` passes
-- [ ] Typecheck ratchet passes (`node scripts/typecheck-ratchet.mjs`)
-- [ ] Tests pass
-- [ ] Documentation is updated if needed
-- [ ] No breaking changes (or clearly marked)
-- [ ] CLA signed (first PR only)
+## Scope
+
+- [ ] One fix or feature, under ~10 files and a few hundred changed lines.
+- [ ] No UI or docs changes, or I asked first (the maintainer does those).
