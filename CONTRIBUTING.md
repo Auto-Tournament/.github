@@ -17,8 +17,9 @@ time. Before you open one:
   lines. A bigger change goes in several small PRs.
 - Have at most 3 PRs open at a time. The PRs of one agreed change count as one.
 - Run it yourself on a real install (a real server for anything that touches
-  one), and say in the PR what you ran and what you saw. Lint and the test
-  suite alone don't count as tested.
+  one), and say in the PR what you ran and what you saw. Lint, CI and the
+  test suite alone don't count as tested. A dependency upgrade means using
+  what it powers, like sending a real email after an email library upgrade.
 - If an AI tool wrote any of it, say which one, and read and understand every
   line before you open the PR. Only tick the box that says so when it's true.
   Large batches of AI-written PRs are closed without review.
