@@ -6,13 +6,22 @@ build and test it.
 
 ## Pull requests
 
-Every pull request is read line by line. Before you open one:
+Every pull request is read line by line, by one maintainer, in their spare
+time. Before you open one:
 
+- Found a bug? An issue with the logs is the most helpful thing you can send.
+- Open an issue first for a new feature, a design change, a rewrite or a major
+  dependency upgrade, and wait until we've agreed on the approach. A PR like
+  that without an agreed issue is closed.
 - Keep it to one fix or feature: under ~10 files and a few hundred changed
   lines. A bigger change goes in several small PRs.
-- Run it yourself, and say in the PR what you ran and what you saw.
+- Have at most 3 PRs open at a time. The PRs of one agreed change count as one.
+- Run it yourself on a real install (a real server for anything that touches
+  one), and say in the PR what you ran and what you saw. Lint and the test
+  suite alone don't count as tested.
 - If an AI tool wrote any of it, say which one, and read and understand every
-  line before you open the PR.
+  line before you open the PR. Only tick the box that says so when it's true.
+  Large batches of AI-written PRs are closed without review.
 - Leave the UI and the docs alone unless you've asked first: the maintainer
   does those.
 - Follow the existing code style, and write commit messages that say what
