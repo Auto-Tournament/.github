@@ -12,7 +12,13 @@ Fixes #
 
 <!-- Did an AI tool write any of this? Say which one, or "none". -->
 
-- [ ] I have read and understand every line of this PR.
+## You
+
+<!-- Only tick what is true. An unticked box is fine: say why below it. -->
+
+- [ ] I am responsible for this code.
+- [ ] I have reviewed this PR myself.
+- [ ] I have read and understand every line of code in this PR.
 
 ## Scope
 
