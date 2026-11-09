@@ -1,0 +1,34 @@
+name: Bug report
+description: Something in this repository is broken
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For the platform, CS2 Server Manager or Ready Up, the links on the previous page go to their own forms. They ask for what those need.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Drag screenshots in here.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release, tag or package version you use.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Logs
+      description: Optional. The lines around the problem. Remove passwords and tokens.
+      render: text

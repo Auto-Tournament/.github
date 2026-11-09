@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Auto Tournament
+    url: https://github.com/Auto-Tournament/auto-tournament/issues/new/choose
+    about: The platform, its Servers page, tournaments and matches.
+  - name: CS2 Server Manager
+    url: https://github.com/Auto-Tournament/cs2-server-manager/issues/new/choose
+    about: csm on your machines.
+  - name: Ready Up
+    url: https://github.com/Auto-Tournament/ready-up/issues/new/choose
+    about: The plugin on your CS2 servers.
+  - name: Documentation
+    url: https://docs.autotournament.gg
+    about: Setup guides and reference.
+  - name: Discord
+    url: https://discord.gg/n7gHYau7aW
+    about: Questions and help from the community.
