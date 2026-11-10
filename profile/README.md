@@ -4,15 +4,16 @@ Self-hosted tournament platform. You create the tournament; Auto Tournament
 loads each match onto your game servers, tracks the score and moves the
 bracket on by itself.
 
-CS2 is the built-in game today. From 3.0, games and tournament formats plug in
-as modules.
+Games plug in as modules: CS2 runs on our own server plugin, Ready Up, and
+any other game can run with the captains reporting the score.
 
 | Repository | What it is | License |
 |---|---|---|
 | [auto-tournament](https://github.com/Auto-Tournament/auto-tournament) | The platform: web app, API and database, shipped as one Docker image. Formerly MatchZy Auto Tournament. | PolyForm Noncommercial |
-| [ready-up](https://github.com/Auto-Tournament/ready-up) | Ready Up: the new native CS2 match plugin, with no Metamod or CounterStrikeSharp needed. A MatchZy / Get5 alternative that survives CS2 updates. | PolyForm Noncommercial |
-| [matchzy-enhanced](https://github.com/Auto-Tournament/matchzy-enhanced) | MatchZy Enhanced: the CounterStrikeSharp plugin that runs matches and reports every event to Auto Tournament. | MIT |
+| [ready-up](https://github.com/Auto-Tournament/ready-up) | Ready Up: the native CS2 match plugin, with no Metamod or CounterStrikeSharp needed. A MatchZy / Get5 alternative that survives CS2 updates. | PolyForm Noncommercial |
+| [matchzy-enhanced](https://github.com/Auto-Tournament/matchzy-enhanced) | MatchZy Enhanced: the older CounterStrikeSharp plugin, replaced by Ready Up. Archived. | MIT |
 | [cs2-server-manager](https://github.com/Auto-Tournament/cs2-server-manager) | CLI that installs and runs several CS2 servers on one Linux machine. | PolyForm Noncommercial |
+| [frame-by-frame](https://github.com/Auto-Tournament/frame-by-frame) | CS2 plugin that records highlight clips one frame at a time, on any GPU. | PolyForm Noncommercial |
 | [packs](https://github.com/Auto-Tournament/packs) | Game packs for the platform's game catalog. | PolyForm Noncommercial |
 | [docs](https://github.com/Auto-Tournament/docs) | Source for [docs.autotournament.gg](https://docs.autotournament.gg). | PolyForm Noncommercial |
 
